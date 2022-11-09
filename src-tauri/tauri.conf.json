@@ -32,13 +32,13 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.cw.navigation",
+      "identifier": "com.cw.navigator",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
         "frameworks": [],
-        "providerShortName": null,
+        "providerShortName": "WEI LI",
         "signingIdentity": null
       },
       "resources": [],
