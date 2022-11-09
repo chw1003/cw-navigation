@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 import AppItem, { type AppData } from '../../components/ContentItem';
 import './index.scss';
 import {APP_DATA} from "../../config";
-import {readConfig, writeConfig} from "../../utils";
+import {readConfig} from "../../utils";
 
 export default function HomeView() {
   const [content, setContent] = useState<Record<string, any>>();

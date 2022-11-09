@@ -24,7 +24,6 @@ const EditorView: React.FC = () => {
     },[])
 
     const editorOnChange = (val: string = '') => {
-        console.log('val-- ',val)
         if (val){
             writeConfig(val)
         }
